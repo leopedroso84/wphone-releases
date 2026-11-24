@@ -1,7 +1,7 @@
-# Wconect VoIP — Releases
+# WPhone — Releases
 
 Este repositório contém **apenas** os instaladores publicados do
-[Wconect VoIP](https://github.com/leopedroso84/wconect-sip) e o manifesto de
+[WPhone](https://github.com/leopedroso84/WPhone) e o manifesto de
 atualização (`latest.json`) usado pelo próprio aplicativo para verificar se
 há uma versão nova disponível.
 
@@ -11,13 +11,13 @@ privado separado.
 ## Baixando o instalador
 
 - **Versão mais recente (link estável)**: sempre em
-  [`releases/download/latest/Wconect-VoIP_Setup.exe`](https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe) —
+  [`releases/download/latest/WPhone_Setup.exe`](https://github.com/leopedroso84/wphone-releases/releases/download/latest/WPhone_Setup.exe) —
   o nome do arquivo **nunca muda**, então esse link pode ser salvo/
   divulgado sem se preocupar com o número da versão.
 - **Uma versão específica/anterior**: veja a
-  [lista de releases](https://github.com/leopedroso84/wconect-voip-releases/releases) —
+  [lista de releases](https://github.com/leopedroso84/wphone-releases/releases) —
   cada versão publicada fica arquivada permanentemente com o instalador
-  nomeado `Wconect-VoIP_X.Y.Z.exe`.
+  nomeado `WPhone_X.Y.Z.exe`.
 
 ## Notas da versão
 
@@ -33,8 +33,8 @@ Sempre em Português do Brasil.
 ```json
 {
   "version": "1.0.0",
-  "installer_url": "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-  "archive_url": "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.0/Wconect-VoIP_1.0.0.exe",
+  "installer_url": "https://github.com/leopedroso84/wphone-releases/releases/download/latest/WPhone_Setup.exe",
+  "archive_url": "https://github.com/leopedroso84/wphone-releases/releases/download/v1.0.0/WPhone_1.0.0.exe",
   "published_at": "2026-07-26T12:00:00Z",
   "notes": "Resumo em texto simples das mudanças desta versão."
 }
