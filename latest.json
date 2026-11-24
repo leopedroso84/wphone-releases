@@ -1,8 +1,8 @@
 {
-  "version": "1.1.35",
+  "version": "1.1.36",
   "installer_url": "https://github.com/leopedroso84/wphone-releases/releases/download/latest/WPhone_Setup.exe",
-  "installer_sha256": "7694a1e85c531bfdd599f8732958c55e7b130f21bc748fb290ecbc266ba81d87",
-  "archive_url": "https://github.com/leopedroso84/wphone-releases/releases/download/v1.1.35/WPhone_1.1.35.exe",
-  "published_at": "2026-11-24T15:33:49Z",
-  "notes": "- Corrigido: crash real ao abrir a janela de atualizacao"
+  "installer_sha256": "ab3f0ccaf73ff64d5bbf6cf87f5d159296c4cea8dccd45f002d16295e0a83738",
+  "archive_url": "https://github.com/leopedroso84/wphone-releases/releases/download/v1.1.36/WPhone_1.1.36.exe",
+  "published_at": "2026-11-24T18:59:02Z",
+  "notes": "- Corrigido de vez: crash ao abrir Sobre/Atualizacao - era a versao do Flutter usada pra compilar, nao o codigo do app\n- Testado com 8 aberturas seguidas da tela Sobre sem falha"
 }

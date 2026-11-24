@@ -1,3 +1,9 @@
+Encontramos a causa real dos crashes das telas "Sobre" e "Atualização" das duas últimas versões: não era um problema no código do app, e sim a versão do Flutter usada para compilar o instalador. Revertemos para a versão que o projeto sempre usou e confirmamos, com testes reais e repetidos, que o problema não ocorre mais.
+
+**⬇️ Baixar a versão 1.1.36:** [WPhone_1.1.36.exe](https://github.com/leopedroso84/wphone-releases/releases/download/v1.1.36/WPhone_1.1.36.exe)
+
+---
+
 Corrigimos outro crash real: a janela "Atualização disponível" podia derrubar o aplicativo logo ao abrir, antes mesmo de aparecer na tela. Era o mesmo problema já corrigido na versão anterior para a tela "Sobre" - agora a janela de atualização também é reaproveitada em vez de recriada a cada checagem.
 
 **⬇️ Baixar a versão 1.1.35:** [WPhone_1.1.35.exe](https://github.com/leopedroso84/wphone-releases/releases/download/v1.1.35/WPhone_1.1.35.exe)
