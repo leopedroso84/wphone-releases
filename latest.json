@@ -1,8 +1,8 @@
 {
-    "version":  "1.1.28",
-    "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "e0390333dca1cfef99ef9869d8dca191fbaaf97dbee04edc124b2a647d7ed321",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.28/Wconect-VoIP_1.1.28.exe",
-    "published_at":  "2026-10-02T15:52:13Z",
-    "notes":  "- Corrige ramal registrar mas nao receber chamadas em alguns casos\n- App agora se identifica pro PABX no registro (header User-Agent)"
+  "version": "1.1.30",
+  "installer_url": "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
+  "installer_sha256": "9c0dd737630370ee392e4ae3dddcebc69394d177ec9c07404d19f029f0438b7a",
+  "archive_url": "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.30/Wconect-VoIP_1.1.30.exe",
+  "published_at": "2026-11-24T14:28:17Z",
+  "notes": "- Corrigido: sem toque nem audio em ligacoes pra ramal interno (PABX que usa 183 Session Progress)\n- Corrigido: cancelador de eco moderno (WebRTC AEC3) agora e linkado de verdade no build nativo"
 }

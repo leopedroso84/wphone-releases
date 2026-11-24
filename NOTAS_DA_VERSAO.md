@@ -1,3 +1,9 @@
+Corrigimos o silêncio total (sem toque de "chamando" nem áudio) em ligações para ramal interno: o toque local só disparava quando o PABX respondia com "180 Ringing" sem corpo SDP, mas muitos PABX respondem chamadas internas com "183 Session Progress" nesse mesmo cenário - agora os dois casos são tratados do mesmo jeito. Esta versão também inclui, pela primeira vez instalada de verdade, um problema de empacotamento das duas últimas versões que impedia o cancelador de eco moderno (WebRTC AEC3) de ser incluído no build nativo do app.
+
+**(download) Baixar a versao 1.1.30:** [Wconect-VoIP_1.1.30.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.30/Wconect-VoIP_1.1.30.exe)
+
+---
+
 Corrigimos uma causa real de ramal registrar normalmente (aparecendo "Online" no app) mas não receber chamadas: o app não estava se identificando pro PABX no momento do registro (header "User-Agent" ausente), diferente de qualquer outro softphone usado com o mesmo PABX. Identificado comparando o registro do nosso app com o de outro softphone direto no PABX via SSH. Se o seu ramal estava com esse sintoma, atualize para esta versão.
 
 **â¬‡ï¸ Baixar a versÃ£o 1.1.28:** [Wconect-VoIP_1.1.28.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.28/Wconect-VoIP_1.1.28.exe)
