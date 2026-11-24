@@ -1,3 +1,9 @@
+O Wconect VoIP agora é o **WPhone**! Novo nome, novo logo e ícone - a mesma equipe, o mesmo PABX, a mesma conta SIP, sem precisar reconfigurar nada. Esta versão também corrige um travamento real ao fechar o aplicativo (o encerramento interno agora acontece na ordem certa, antes da janela fechar) e deixa o painel de qualidade da ligação com a mesma aparência em chamadas para ramal interno e externo desde o momento em que começa a tocar.
+
+**⬇️ Baixar a versão 1.1.31:** [WPhone_1.1.31.exe](https://github.com/leopedroso84/wphone-releases/releases/download/v1.1.31/WPhone_1.1.31.exe)
+
+---
+
 Corrigimos o silêncio total (sem toque de "chamando" nem áudio) em ligações para ramal interno: o toque local só disparava quando o PABX respondia com "180 Ringing" sem corpo SDP, mas muitos PABX respondem chamadas internas com "183 Session Progress" nesse mesmo cenário - agora os dois casos são tratados do mesmo jeito. Esta versão também inclui, pela primeira vez instalada de verdade, um problema de empacotamento das duas últimas versões que impedia o cancelador de eco moderno (WebRTC AEC3) de ser incluído no build nativo do app.
 
 **(download) Baixar a versao 1.1.30:** [Wconect-VoIP_1.1.30.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.30/Wconect-VoIP_1.1.30.exe)

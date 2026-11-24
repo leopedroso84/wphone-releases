@@ -1,8 +1,8 @@
 {
-  "version": "1.1.30",
-  "installer_url": "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-  "installer_sha256": "9c0dd737630370ee392e4ae3dddcebc69394d177ec9c07404d19f029f0438b7a",
-  "archive_url": "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.30/Wconect-VoIP_1.1.30.exe",
-  "published_at": "2026-11-24T14:28:17Z",
-  "notes": "- Corrigido: sem toque nem audio em ligacoes pra ramal interno (PABX que usa 183 Session Progress)\n- Corrigido: cancelador de eco moderno (WebRTC AEC3) agora e linkado de verdade no build nativo"
+  "version": "1.1.31",
+  "installer_url": "https://github.com/leopedroso84/wphone-releases/releases/download/latest/WPhone_Setup.exe",
+  "installer_sha256": "9ac43b98c6265c79e12c3bec24600cf1c4f1b875f88ea2fab3812fe7925e452f",
+  "archive_url": "https://github.com/leopedroso84/wphone-releases/releases/download/v1.1.31/WPhone_1.1.31.exe",
+  "published_at": "2026-11-24T15:03:48Z",
+  "notes": "- O Wconect VoIP agora e o WPhone - novo nome e novo logo, mesma conta SIP\n- Corrigido: travamento ao fechar o aplicativo\n- Corrigido: painel de qualidade da ligacao igual em ramal interno e externo"
 }
