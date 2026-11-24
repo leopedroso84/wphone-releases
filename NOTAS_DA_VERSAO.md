@@ -1,3 +1,9 @@
+Corrigimos um resíduo visual da atualização para WPhone: o executável antigo e o atalho "Wconect VoIP" (ainda do nome anterior) ficavam órfãos depois de atualizar, dando a impressão de duas instalações separadas - mesmo a atualização em si (conta, ramal, preferências) já estando correta desde a versão anterior. Agora a atualização limpa esses resíduos automaticamente, deixando só o WPhone no Menu Iniciar e na pasta de instalação.
+
+**⬇️ Baixar a versão 1.1.33:** [WPhone_1.1.33.exe](https://github.com/leopedroso84/wphone-releases/releases/download/v1.1.33/WPhone_1.1.33.exe)
+
+---
+
 Corrigimos um problema sério da versão anterior (1.1.31): atualizar por cima de uma instalação antiga do Wconect VoIP "perdia" o ramal, a conta e todas as preferências. Os dados nunca foram apagados - só ficaram em um lugar que o app não procurava mais depois do rebranding. Agora o app encontra e restaura isso automaticamente na primeira abertura, sem precisar reconfigurar nada. Também corrigimos o ícone do app/bandeja, que ainda saía borrado em telas com escala de tela diferente de 100%.
 
 **⬇️ Baixar a versão 1.1.32:** [WPhone_1.1.32.exe](https://github.com/leopedroso84/wphone-releases/releases/download/v1.1.32/WPhone_1.1.32.exe)

@@ -1,8 +1,8 @@
 {
-  "version": "1.1.32",
+  "version": "1.1.33",
   "installer_url": "https://github.com/leopedroso84/wphone-releases/releases/download/latest/WPhone_Setup.exe",
-  "installer_sha256": "84127cfd08b30b12989f977cfebde9fb31ea49d80368062523f8a2731c47a8d0",
-  "archive_url": "https://github.com/leopedroso84/wphone-releases/releases/download/v1.1.32/WPhone_1.1.32.exe",
-  "published_at": "2026-11-24T15:14:18Z",
-  "notes": "- Corrigido: upgrade perdia ramal/conta/preferencias (dados recuperados automaticamente)\n- Corrigido: icone do app/bandeja borrado em telas com escala de DPI diferente de 100%"
+  "installer_sha256": "8a4ab9199c57953c9daab38bbe34291904c6f95fe7249b9228adc4a7fde35716",
+  "archive_url": "https://github.com/leopedroso84/wphone-releases/releases/download/v1.1.33/WPhone_1.1.33.exe",
+  "published_at": "2026-11-24T15:22:06Z",
+  "notes": "- Corrigido: exe/atalho antigo Wconect VoIP ficava orfao apos atualizar pra WPhone"
 }
