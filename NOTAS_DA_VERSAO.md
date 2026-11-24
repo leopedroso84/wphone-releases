@@ -1,3 +1,9 @@
+Corrigimos um crash real: abrir a tela "Sobre" algumas vezes seguidas podia derrubar o aplicativo inteiro. A tela agora é reaproveitada em vez de recriada a cada clique, o mesmo princípio que já evita esse tipo de problema na janela de chamada recebida.
+
+**⬇️ Baixar a versão 1.1.34:** [WPhone_1.1.34.exe](https://github.com/leopedroso84/wphone-releases/releases/download/v1.1.34/WPhone_1.1.34.exe)
+
+---
+
 Corrigimos um resíduo visual da atualização para WPhone: o executável antigo e o atalho "Wconect VoIP" (ainda do nome anterior) ficavam órfãos depois de atualizar, dando a impressão de duas instalações separadas - mesmo a atualização em si (conta, ramal, preferências) já estando correta desde a versão anterior. Agora a atualização limpa esses resíduos automaticamente, deixando só o WPhone no Menu Iniciar e na pasta de instalação.
 
 **⬇️ Baixar a versão 1.1.33:** [WPhone_1.1.33.exe](https://github.com/leopedroso84/wphone-releases/releases/download/v1.1.33/WPhone_1.1.33.exe)

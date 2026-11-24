@@ -1,8 +1,8 @@
 {
-  "version": "1.1.33",
+  "version": "1.1.34",
   "installer_url": "https://github.com/leopedroso84/wphone-releases/releases/download/latest/WPhone_Setup.exe",
-  "installer_sha256": "8a4ab9199c57953c9daab38bbe34291904c6f95fe7249b9228adc4a7fde35716",
-  "archive_url": "https://github.com/leopedroso84/wphone-releases/releases/download/v1.1.33/WPhone_1.1.33.exe",
-  "published_at": "2026-11-24T15:22:06Z",
-  "notes": "- Corrigido: exe/atalho antigo Wconect VoIP ficava orfao apos atualizar pra WPhone"
+  "installer_sha256": "da8dc95647c2f282d406064ca210e2d26951fcfd6cf60652a5d7c06fbe2b7d68",
+  "archive_url": "https://github.com/leopedroso84/wphone-releases/releases/download/v1.1.34/WPhone_1.1.34.exe",
+  "published_at": "2026-11-24T15:28:18Z",
+  "notes": "- Corrigido: crash real ao abrir a tela Sobre varias vezes seguidas"
 }
