@@ -1,8 +1,8 @@
 {
-  "version": "1.1.31",
+  "version": "1.1.32",
   "installer_url": "https://github.com/leopedroso84/wphone-releases/releases/download/latest/WPhone_Setup.exe",
-  "installer_sha256": "9ac43b98c6265c79e12c3bec24600cf1c4f1b875f88ea2fab3812fe7925e452f",
-  "archive_url": "https://github.com/leopedroso84/wphone-releases/releases/download/v1.1.31/WPhone_1.1.31.exe",
-  "published_at": "2026-11-24T15:03:48Z",
-  "notes": "- O Wconect VoIP agora e o WPhone - novo nome e novo logo, mesma conta SIP\n- Corrigido: travamento ao fechar o aplicativo\n- Corrigido: painel de qualidade da ligacao igual em ramal interno e externo"
+  "installer_sha256": "84127cfd08b30b12989f977cfebde9fb31ea49d80368062523f8a2731c47a8d0",
+  "archive_url": "https://github.com/leopedroso84/wphone-releases/releases/download/v1.1.32/WPhone_1.1.32.exe",
+  "published_at": "2026-11-24T15:14:18Z",
+  "notes": "- Corrigido: upgrade perdia ramal/conta/preferencias (dados recuperados automaticamente)\n- Corrigido: icone do app/bandeja borrado em telas com escala de DPI diferente de 100%"
 }

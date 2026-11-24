@@ -1,3 +1,9 @@
+Corrigimos um problema sério da versão anterior (1.1.31): atualizar por cima de uma instalação antiga do Wconect VoIP "perdia" o ramal, a conta e todas as preferências. Os dados nunca foram apagados - só ficaram em um lugar que o app não procurava mais depois do rebranding. Agora o app encontra e restaura isso automaticamente na primeira abertura, sem precisar reconfigurar nada. Também corrigimos o ícone do app/bandeja, que ainda saía borrado em telas com escala de tela diferente de 100%.
+
+**⬇️ Baixar a versão 1.1.32:** [WPhone_1.1.32.exe](https://github.com/leopedroso84/wphone-releases/releases/download/v1.1.32/WPhone_1.1.32.exe)
+
+---
+
 O Wconect VoIP agora é o **WPhone**! Novo nome, novo logo e ícone - a mesma equipe, o mesmo PABX, a mesma conta SIP, sem precisar reconfigurar nada. Esta versão também corrige um travamento real ao fechar o aplicativo (o encerramento interno agora acontece na ordem certa, antes da janela fechar) e deixa o painel de qualidade da ligação com a mesma aparência em chamadas para ramal interno e externo desde o momento em que começa a tocar.
 
 **⬇️ Baixar a versão 1.1.31:** [WPhone_1.1.31.exe](https://github.com/leopedroso84/wphone-releases/releases/download/v1.1.31/WPhone_1.1.31.exe)
