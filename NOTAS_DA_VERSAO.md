@@ -1,3 +1,9 @@
+Corrigimos outro crash real: a janela "Atualização disponível" podia derrubar o aplicativo logo ao abrir, antes mesmo de aparecer na tela. Era o mesmo problema já corrigido na versão anterior para a tela "Sobre" - agora a janela de atualização também é reaproveitada em vez de recriada a cada checagem.
+
+**⬇️ Baixar a versão 1.1.35:** [WPhone_1.1.35.exe](https://github.com/leopedroso84/wphone-releases/releases/download/v1.1.35/WPhone_1.1.35.exe)
+
+---
+
 Corrigimos um crash real: abrir a tela "Sobre" algumas vezes seguidas podia derrubar o aplicativo inteiro. A tela agora é reaproveitada em vez de recriada a cada clique, o mesmo princípio que já evita esse tipo de problema na janela de chamada recebida.
 
 **⬇️ Baixar a versão 1.1.34:** [WPhone_1.1.34.exe](https://github.com/leopedroso84/wphone-releases/releases/download/v1.1.34/WPhone_1.1.34.exe)
